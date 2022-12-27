@@ -1,0 +1,40 @@
+.mb-4 i {
+    transition: all ease-in-out 3s;
+}
+
+.mb-4 a:hover {
+    top: -3px;
+}
+
+.sec a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: black;
+}
+
+.card-card-body h3 {
+    color: black;
+}
+
+.card-card-body label {
+    color: black;
+}
+
+.col:first-child {
+    background-color: #e30224;
+    border-radius: 30px;
+    margin-right: 2vw;
+    padding: 3vh 3vw 3vh 3vw;
+}
+.col:first-child h1 {
+    color: white;
+}
+.col:first-child h4 {
+    color: rgb(247, 247, 247);
+    text-align:justify ;
+}
+
+
+
