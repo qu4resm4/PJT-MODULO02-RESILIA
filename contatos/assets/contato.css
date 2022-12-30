@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+header {
+    height: 90px;
+}
+
+#top {
+    height: 230px;
+    background-color: whitesmoke;
+    
+}
+
+#top b {
+    color: #e30224;
+}
+
+@media (max-width: 766px) {
+    #top {
+        height: 115px;
+    }
+    
+}
