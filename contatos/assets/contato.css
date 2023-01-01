@@ -1,23 +1,42 @@
 * {
     margin: 0;
 }
+
 header {
-    height: 90px;
+    height: 70px;
 }
 
 #top {
     height: 230px;
     background-color: whitesmoke;
-    
+    padding: 0 200px;
+
 }
 
-#top b {
+h1 {
+    font-size: 65px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h1 b {
     color: #e30224;
 }
 
 @media (max-width: 766px) {
     #top {
         height: 115px;
+        padding: 0 50px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h5 {
+        font-size: 10px;
     }
     
 }
