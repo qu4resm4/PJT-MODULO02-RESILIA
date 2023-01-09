@@ -26,14 +26,24 @@ h1 b {
     color: #e30224;
 }
 
-@media (max-width: 766px) {
-    #top {
+.btn-primary {
+    background-color: #e30224;
+}
+
+.col-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 776px) {
+    .top {
         height: 115px;
-        padding: 0 50px;
+        padding: 0 32px;
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 27px;
     }
 
     h5 {
@@ -43,25 +53,13 @@ h1 b {
 }
 
 .card {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 
-/*
-.equipe {
-    height: 100vh;
+
+.container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     
 }
-
-
-
-.linha1, .linha2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-*/
