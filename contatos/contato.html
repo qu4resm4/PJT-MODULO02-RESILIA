@@ -36,7 +36,7 @@
                 
                     <div class="col-sm">
                         <div class="card" style="width: 18rem;">
-                            <img src="./assets/img/quaresma.jpg" class="card-img-top" alt="...">
+                            <img src="./assets/img/quaresma.jp" class="card-img-top" alt="...">
                             <div class="card-body">
                             <h5 class="card-title">Co facilitador</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -100,28 +100,23 @@
 
         <section class="formularioContato">
             <!--FORMULARIO DE CONTATO-->
-            <form>
+            <form class="containerContato">
                 <label>
-                    <span><i class="icon icon-user-1"></i> Nome</span>
+                    <tittle>Mensagem*</tittle>
+                     <textarea name="mensagem" rows="3" required=""></textarea> 
+                </label>
+                
+                <label>
+                    <tittle>Nome*</tittle>
                     <input type="text" name="nome" required="">
                 </label>
                 
                 <label>
-                    <span><i class="icon icon-email"></i> E-mail</span>
-                    <input type="text" name="email" class="fade_8S">
-                </label>
-                <label>
-                    <span><i class="icon icon-flag"></i> Assunto</span>
-                    <input type="text" name="assunto" required="">
+                    <tittle>E-mail*</tittle>
+                    <input type="text" name="email" class="">
                 </label>
                 
-                <label>
-                    <span><i class="icon icon-comment"></i> Mensagem</span>
-                     <textarea name="mensagem" rows="3" required=""></textarea> 
-                </label>
-               
-                <input type="hidden" name="acao" value="enviar" />
-                <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+                <button class="btn-envia" title="Enviar">ENVIAR</button>
             </form>
         </section>
     </main>
