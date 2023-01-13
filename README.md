@@ -27,7 +27,7 @@ Utilizamos como base as aulas e códigos demostrados em aulas do curso.
 📌 Link do projeto no github Pages: https://thiagos1lva.github.io/PJT-MODULO02-RESILIA/index.html
  
 ---
-⌨️ com ❤️ por  Analice
+⌨️ com ❤️ por  Analice 😊
                 Manuela Andrade 😊
                 Suzana Barbosa 😊
                 Thiago Oliveira 😊   
