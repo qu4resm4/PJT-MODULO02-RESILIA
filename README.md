@@ -1,21 +1,39 @@
-# PJT-MODULO02-RESILIA
+# Projeto Resília - FRONTENDERS
 
-Segundo projeto em Squad do curso programadores carioca, utilizando metodologias Relisia.
-
-## Colaboradores
-
-Quaresma, Suzana Barbosa, Analice Clemente, Manuela Andrade e Thiago Oliveira.
+O projeto foi desenvolvido para que o usuário possa adquirir um serviço oferecido pela empresa fictícia CodeDrive
 
 
-## :file_folder: Início 
+## 🚀 Finalidade
 
-Estamos apresentando a FrontEnders uma empresa de tecnologia
-A ideia principal foi desenvolver o frontend do nosso novo produto. Desenvolvendo uma experiência de usuário agradável e atrativa.
+O projeto foi uma proposta do curso em desenvolvimento web da Resília Educação aonde fomos desafiados a elaborar uma página de oferecimento de serviços, em que era necessário conter pacotes de planos, página de cadastro/login e de contato
 
-CODEDRIVE é um sistema de controle de versões e desenvolvimento na nuvem, usado principalmente em desenvolvimento de software e compartilhamento, mas também é bastante usado em registro de histórico, armazenamento e edições de qualquer arquivo!
+## 📋 Tecnologias utilizadas
 
-Aqui incluímos os nossos conhecimentos em HTML, CSS, JavaScript, Bootstrap e outros frameworks.
+🛠️HTML5 de forma semântica, Bootstrap 4, CSS3 e Javascript.
+<div style="display: inline_block"><br>
+<img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+<img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+<img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+<img align="center"  height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+</div>
 
 
-## Acesso do site
- :point_right: Link do projeto: https://qu4resm4.github.io/PJT-MODULO02-RESILIA/index.html
+## 📦 Desenvolvimento
+
+Utilizamos como base as aulas e códigos demostrados em aulas do curso. 
+
+
+
+📌 Link do projeto no github Pages: https://thiagos1lva.github.io/PJT-MODULO02-RESILIA/index.html
+ 
+---
+⌨️ com ❤️ por  Analice
+                Manuela Andrade 😊
+                Suzana Barbosa 😊
+                Thiago Oliveira 😊   
+                Quaresma 😊
+
+
+
+
+
