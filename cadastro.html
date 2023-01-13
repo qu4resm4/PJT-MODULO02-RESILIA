@@ -1,144 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title> contatos </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/contato.css'>
-    <link rel="stylesheet" href="./footer/footer.css">
-    <script src='.assets/contato.js'></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/cadastro.css">
+    <title>FrontEnders</title>
 </head>
+
 <body>
-    <header>
-        <!--NAVBAR-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#"></a>
-                  <a class="nav-link" href="#">Pricing</a>
-                </div>
-              </div>
+
+
+    <div class="container mb-10">
+        <section class="row mt-5 align-items-center">
+            <div class="col">
+
+                <h1>ACESSO FÁCIL E SEGURO AO SEU CONTEÚDO!</h1>
+                <h4>Armazene, edite e colabore em arquivos e pastas em ambientes de desenvolvimento hospedados na nuvem
+                    do <i> Visual Studio</i> ou seu navegador. </h4>
+                <img src="./assets/img/Visual data-pana.png" alt="" width="300px" height="300px"
+                    class="rounded mx-auto d-block">
+                <button class="btn btn-light btn-lg"> FAÇA LOGIN NO NOSSO SITE! </button>
+                <button class="btn btn-light btn-lg"> INSCREVA-SE! </button>
             </div>
-          </nav>
-    </header>
+            <div class="col">
+                <article class="card-card-body">
+                    <h3>ENTRE NA FILA DE ESPERA!</h3>
+                    <hr>
+                    <form action="">
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" class="form-control mb-3" placeholder="Seu nome..." required>
 
-    <main>
-        <section class="top">
-            <div>
-                <!--MENSAGEM-ACOLHEDORA-->
-                    <h1>Quer <b>entrar em contato?</b></h1>
-                    <h5>Gostaríamos muito de ouvir você. Veja como nos contatar.</h5>
-            </div>    
-        </section>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" class="form-control mb-3" placeholder="xxxxx@email.com" required>
 
-        <section>
-            <!--REDIRECIONAMENTO?-->
-        </section>
+                        <label for="email">Senha</label>
+                        <input id="senha" type="password" class="form-control mb-3" placeholder="Sua senha..." required>
 
-        <section class="container">
-            <!--EQUIPE E LINKS-->
-            <div class="row">
-                
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/img/quaresma.jp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Co facilitador</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="zz" target="_blank" class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
-                            <a href="https://github.com/qu4resm4" target="_blank" class="btn btn-primary"><i class="bi bi-github"></i></a>
-                            </div>
+                        <label for="cep">CEP</label>
+                        <input id="cep" type="text" class="form-control mb-3" placeholder="Ex.: 00000000" required>
+
+                        <label for="logradouro">logradouro</label>
+                        <input id="logradouro" type="text" class="form-control mb-3"
+                            placeholder="Ex.: Rua, Travessa...">
+
+                        <label for="ddd">(DDD)</label required>
+                        <input id="ddd" type="text" class="form-control mb-3" placeholder="Ex.: 21,22 ...">
+
+                        <label for="numero">Numero</label required>
+                        <input id="numero" type="text" class="form-control mb-3" placeholder="Ex.: 123" required>
+
+                        <label for="bairro">Bairro</label>
+                        <input id="bairro" type="text" class="form-control mb-3"
+                            placeholder="Ex.: Glória, Flamengo, Botafogo...">
+
+                        <label for="Cidade">Cidade</label>
+                        <input id="cidade" type="text" class="form-control mb-3"
+                            placeholder="Ex.: Rio de janeiro, Cabo Frio....">
+
+                        <label for="uf">Unidade Federal</label>
+                        <input id="uf" type="text" class="form-control mb-3" placeholder="Ex.: RJ, SP...">
+
+                        <div class="d-grid">
+                            <button class="btn btn-lg" style="background-color: #e30224; color: white;"> ENVIAR
+                            </button>
                         </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">gestor conhechimento</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" target="_blank" class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
-                            <a href="#" target="_blank" class="btn btn-primary"><i class="bi bi-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">gestor pessoal</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" target="_blank" class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
-                            <a href="#" target="_blank" class="btn btn-primary"><i class="bi bi-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
+                    </form>
+                </article>
             </div>
+    </div>
+    </section>
 
-            <div class="row">
-                
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">colaborador</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" target="_blank" class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
-                            <a href="#" target="_blank" class="btn btn-primary"><i class="bi bi-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">colaborado</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" target="_blank" class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
-                            <a href="#" target="_blank" class="btn btn-primary"><i class="bi bi-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
-            </div>
-        </section>
-
-        <section class="formularioContato">
-            <!--FORMULARIO DE CONTATO-->
-            <form class="containerContato">
-                <title>DEIXE SUA MENSAGEM</title>
-
-                <div>
-                    <label>Mensagem*</label>
-                     <textarea class="msg" name="mensagem" required=""></textarea> 
-                </div>
-                
-                <div>
-                    <label>Nome*</label>
-                    <input class="namemail" type="text" name="nome" required="">
-                </div>
-                
-                <div>
-                    <label>E-mail*</label>
-                    <input class="namemail" type="text" name="email" class="">
-                </div>
-                
-                <button class="btn-enviar" title="Enviar">ENVIAR</button>
-            </form>
-        </section>
-    </main>
 
     <!--FOOTER -->
     <footer class="bg-dark text-center text-white">
@@ -190,7 +132,7 @@
                             <!-- Email input -->
                             <div class="form-outline form-white mb-4">
                                 <input type="email" id="form5Example21" class="form-control" />
-                                <div class="form-div" for="form5Example21">Endereço de e-mail</div>
+                                <label class="form-label" for="form5Example21">Endereço de e-mail</label>
                             </div>
                         </div>
                         <!--Grid column-->
@@ -299,6 +241,8 @@
         <!-- Copyright -->
     </footer>
     <!-- Footer -->
-</body>
-</html>
 
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
