@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 70px;
+}
+
+.top {
+    height: 230px;
+    background-color: whitesmoke;
+    padding: 0 300px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h1 b {
+    color: #e30224;
+}
+
+.btn-primary {
+    background-color: #e30224;
+}
+
+.col-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 40px 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+/*formulario de contato*/
+
+.formularioContato {
+    background-color: whitesmoke;
+    height: 700px;
+}
+
+.containerContato div {
+    display:flex;
+    flex-direction: column;
+
+    
+}
+
+.containerContato {
+    padding: 200px 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.msg {
+    min-height: 100px;
+    max-height: 100px;
+    border-radius: 6px;
+}
+    
+.namemail {
+    border-radius: 6px;
+}
+
+.btn-enviar {
+    margin: 20px 0 0 0;
+    border-radius: 6px;
+    background-color: #e30224;
+    color: white;
+    font-weight: 500;
+}
+
+/*.container-fluid {
+    padding: 0 300px;
+}*/
+
+#floatingInput1{
+    min-height: 100px;
+    max-height: 100px;
+    border-radius: 6px;
+}
+
+@media (max-width: 776px) {
+    .top {
+        height: 115px;
+        padding: 0 32px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    h5 {
+        font-size: 10px;
+    }
+    .formularioContato {
+        height: 100vh;
+    }
+
+    .containerContato {
+        padding: 0 0;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+}
+
+@media (max-width: 1025px) {
+    .top {
+        padding: 0 150px;
+    }
+
+    .containerContato {
+        padding: 200px 150px;
+    }
+
+}
+.mb-4 i {
+    transition: all ease-in-out 3s;
+}
+
+.mb-4 a:hover {
+    top: -3px;
+}
+
+.sec a:hover {
+    text-decoration: underline;
+}
+
