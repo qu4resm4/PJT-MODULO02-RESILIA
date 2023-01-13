@@ -1,3 +1,4 @@
+//viacep
 const input_cep = document.getElementById('cep');
 const input_logradouro = document.getElementById('logradouro');
 const input_ddd = document.getElementById('ddd');
@@ -23,3 +24,19 @@ input_cep.addEventListener('blur', () => {
             input_uf.value = json.uf;
         });
 })
+
+//menu responsivo
+
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/navbar-animation-fix.js"></script>
+    <!-- Script do Menu -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
